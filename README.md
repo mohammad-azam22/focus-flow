@@ -2,13 +2,13 @@
 
 A Chromium browser extension that helps you understand your browsing habits by automatically tracking how much time you spend on each website every day. Stay mindful, improve productivity, and take control of your online time with clear and simple daily usage insights.
 
-![Popup]("images/001.png")
-![Chart 1]("/images/002.png")
-![Chart 2]("/images/003.png")
-![Chart 3]("/images/004.png")
-![Chart 4]("/images/005.png")
-![Chart 5]("/images/006.png")
-![Chart 6]("/images/007.png")
+!["Popup"](/images/001.png)
+!["Chart 1"](/images/002.png)
+!["Chart 2"](/images/003.png)
+!["Chart 3"](/images/004.png)
+!["Chart 4"](/images/005.png)
+!["Chart 5"](/images/006.png)
+!["Chart 6"](/images/007.png)
 
 ## 🌟 Features
 - Tracks daily time spent on each website automatically  
