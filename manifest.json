@@ -1,0 +1,21 @@
+{
+	"manifest_version": 3,
+	"name": "FocusFlow – Website Time Manager",
+	"version": "1.0.0",
+	"description": "FocusFlow helps you understand your browsing habits by automatically tracking how much time you spend on each website every day. Stay mindful, improve productivity, and take control of your online time with clear and simple daily usage insights.",
+	"permissions": [
+		"tabs",
+		"storage",
+		"alarms"
+	],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {
+		"default_popup": "assets/html/popup.html",
+		"default_icon": "assets/images/icon.png"
+	},
+	"icons": {
+		"128": "assets/images/icon.png"
+	}
+}

@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    background: #0e111b;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+
+.sidebar {
+    width: 10vw;
+    background: #1e2439;
+    padding: 20px;
+    position: fixed;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.sidebar a {
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+.sidebar a:hover {
+    color: #ffffff;
+}
+
+main {
+    margin: 0 auto;
+    padding: 5% 10% 5% 25%;
+    width: 65vw;
+}
+
+.section {
+    margin-bottom: 60px;
+}
+
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+
+.card {
+    background: #1e2439;
+    padding: 20px;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px #ffffff, 0 0 20px #00ccff;
+}
+
+
+.chart-block {
+    background: #1e2439;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    /* height: 400px; */
+    transition-duration: 0.2s;
+}
+
+.chart-block:hover {
+    box-shadow: 0 0 10px #ffffff, 0 0 20px #00ccff;
+}
+
+
+canvas#todayTop5Chart {
+    height: 85% !important;
+    width: 85% !important;
+    margin: auto;
+}
+
+canvas#todayPieChart {
+    height: 60% !important;
+    min-height: 60% !important;
+    width: 60% !important;
+    margin: auto;
+    overflow-y: auto;
+    
+}
+
+.range-inputs {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.range-inputs input,
+.range-inputs button {
+    padding: 8px 12px;
+    background: #1e2439;
+    border: 1px solid #ffffff;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.range-inputs input:hover,
+.range-inputs button:hover {
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #00ccff;
+    cursor: pointer;
+}
+
+.range-table {
+    width: 100%;
+    margin-top: 25px;
+    border-collapse: collapse;
+    color: #fff;
+}
+
+.range-table th,
+.range-table td {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.range-table tr:hover {
+    background: #263056;
+}
+
+#rangeLineChart {
+    margin-top: 20px;
+}
+
+#multiWebsiteChart {
+    margin-top: 20px;
+}
+
+#top5RangeChart {
+    margin-top: 20px;
+}
+
+#avgWebsiteChart {
+    margin-top: 20px;
+}
